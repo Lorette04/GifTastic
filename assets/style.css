@@ -1,0 +1,52 @@
+body {
+    background-color: #efeff5;
+}
+
+
+.btn  {
+    margin: 5px;
+}
+  
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 980px) {
+    .column  {
+        width: 900px;
+    }
+    p {
+        width: 900px;
+    }
+    .wrapper  {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column  {
+        width: 750px;   
+    }
+    p {
+        width: 750px;
+    }
+    .wrapper  {
+        width: 750px;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 640px) {
+    .column {
+        width: 500px;
+    }
+    p {
+        width: 500px;
+    }
+
+    li {
+        float: left;
+        padding-left: 0;
+        
+    }
+
+}
